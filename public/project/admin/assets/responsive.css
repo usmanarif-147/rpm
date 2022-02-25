@@ -1,0 +1,44 @@
+/*	Media 768Px Start */
+@media (min-width: 768px) and (max-width: 990px) {
+	[class*="col-"] { padding: 0px 5px; }
+	.row { margin: 0px -5px; }
+	.app-main .app-main__inner { padding: 30px 10px 0px; }
+	.search-form li { width: 50%; margin: 0px 0px 10px;}
+}
+
+/* Media 420Px Start */
+@media (max-width: 767px) {
+	.app-header__logo .logo-src { width: 100%; }
+	.table-responsive { overflow: auto; }
+	.table-responsive>.table { width: 1000px !important; }
+	.card-body form { width: 100%; float: left; }
+	.search-form li { width: 50%; margin: 0px 0px 10px;}
+	.search-form li:last-child button { margin: 0px; }
+	#example tr th,#example tr td { display: table-cell !important; }
+	.motivz-job-search ul li { width: 50%; }
+}
+
+/* Media 300Px Start */
+@media (max-width: 600px) {
+	.search-form li,.motivz-job-search ul li { width: 100%; }
+	.search-form.width-full li { width: 100% !important }
+	.card-body form { margin: 0px 0px 10px; }
+	.search-form select { width: 35%; }
+	.search-form li:first-child input { width: 65%; }
+}
+
+/* Media 940Px Start */
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+	.dash-box i {
+		width: 80px;
+	    height: 80px;
+	    line-height: 80px;
+	    font-size: 50px;
+	}
+	.dash-box h2 { font-size: 32px; }
+	.dash-boxes .card-body { padding: 12px; }
+	.dash-box span { font-size: 16px; }
+}
